@@ -1,11 +1,8 @@
-function stworzParagraf() {
-  var para = document.createElement('p');
-  para.textContent = 'Kliknąales przycisk!';
-  document.body.appendChild(para);
-}
+var para = document.querySelector('p');
 
-var przyciski = document.querySelectorAll('button');
+para.addEventListener('click', updateName);
 
-for (var i = 0; i < przyciski.length ; i++) {
-  przyciski[i].addEventListener('click', stworzParagraf);
+function updateName() {
+  var name = prompt('Enter a new name');
+  para.textContent = 'Player 1: ' + name;
 }
