@@ -11,3 +11,6 @@ img {
   display: block;
   margin: 0 auto;
 }
+p {
+  padding: 3px 10px
+}
