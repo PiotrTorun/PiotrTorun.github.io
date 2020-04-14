@@ -6,7 +6,7 @@ p {
   border: 20px solid rgba(0,0,200,0.6);
   background: rgba(0,0,200,0.3);
   color: rgba(0,0,200,0.6);
-  box-shadow: 10px 10px 20px rgba(0,0,200,0.4);
+  box-shadow: 5px 5px 5px rgba(0,0,200,0.4);
   border-radius: 10px;
   padding: 3px 10px;
   display: inline-block;
