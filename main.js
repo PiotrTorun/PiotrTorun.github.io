@@ -1,4 +1,4 @@
-var para = document.querySelector('p');
+var para = document.querySelector('p1');
 
 para.addEventListener('click', updateName);
 
