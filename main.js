@@ -1,6 +1,6 @@
 function stworzParagraf() {
   var para = document.createElement('p');
-  para.textContent = 'Kliknąłeś przycisk!';
+  para.textContent = 'Kliknąales przycisk!';
   document.body.appendChild(para);
 }
 
