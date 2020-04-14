@@ -1,11 +1,8 @@
-var randomNumber = Math.floor(Math.random() * 100) + 1;
+var para = document.querySelector('p');
 
-var guesses = document.querySelector('.guesses');
-var lastResult = document.querySelector('.lastResult');
-var lowOrHi = document.querySelector('.lowOrHi');
+para.addEventListener('click', updateName);
 
-var guessSubmit = document.querySelector('.guessSubmit');
-var guessField = document.querySelector('.guessField');
-
-var guessCount = 1;
-var resetButton;
+function updateName() {
+  var name = prompt('Enter a new name');
+  para.textContent = 'Player 1: ' + name;
+}
